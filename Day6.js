@@ -1,8 +1,10 @@
 const arrayCreation = () => {
   let arr = [];
+
   for (let index = 1; index <= 5; index++) {
     arr.push(index);
   }
+
   console.log("The created aray is :- ", arr);
   const getFirstElement = () => arr[0];
   const getLastElement = () => arr[arr.length - 1];
